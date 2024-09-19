@@ -6,6 +6,7 @@ const logger = require('../utils/logger');
 const Users = require('./users');
 const Members = require('./member');
 const Image = require('./image');
+
 const Token = require('./token');
 const Payments = require('./payment');
 const Request = require('./request');
@@ -31,8 +32,10 @@ function App(params = {}) {
   const properties = new Property(image);
   const interestedbuyers = new Interestedbuyer(image);
   const notifications = new Notification();
+
   const _app = {
     config,
+
     image,
     users,
     members,

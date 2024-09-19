@@ -46,7 +46,7 @@ process.on('SIGTERM', () => shutdown('SIGTERM'));
 process.on('SIGINT', () => shutdown('SIGINT'));
 
 (async () => {
-  // create EventClub object
+  // create Sharambea object
   const _app = app({
     jwtSecret: process.env.JWT_SECRET,
   });

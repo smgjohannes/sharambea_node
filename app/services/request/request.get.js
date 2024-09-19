@@ -14,6 +14,7 @@ const DEFAULT_OPTIONS = {
     'location',
     'price',
     'date_of_moving_in',
+    'proof_of_fund',
     'created_at',
     'updated_at',
   ],
